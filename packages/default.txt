@@ -1,0 +1,42 @@
+-ppp
+-ppp-mod-pppoe
+-wpad-mini
+wpad
+
+# Common
+mtr
+ip
+iperf
+tmux
+vnstat
+ethtool
+dnsmasq
+qos-scripts
+firewall
+iwinfo
+libiwinfo-lua
+
+# GUI-basics
+uhttpd
+uhttpd-mod-ubus
+px5g-mbedtls
+freifunk-berlin-wizard-frontend
+
+# OLSR
+olsrd
+olsrd-mod-arprefresh
+olsrd-mod-dyn-gw
+olsrd-mod-jsoninfo
+olsrd-mod-txtinfo
+olsrd-mod-nameservice
+olsrd-mod-watchdog
+kmod-ipip
+
+# OLSR2
+oonf-init-scripts
+oonf-dlep-radio
+oonf-olsrd2
+
+# BATMAN
+kmod-batman-adv
+batctl
