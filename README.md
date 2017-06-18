@@ -17,7 +17,7 @@ New features like a new network concept will be part of future releases.
   * new package: "collectd-dnsmasq-addon" to monitor DHCP-lease usage
 
 ## Features
-* based on [OpenWrt](https://wiki.openwrt.org/start) Chaos Calmer (15.05.1)
+* based on [Lede](https://lede-project.org) 17.1
   * Linux 3.18.45
   * OLSR 0.9.0.3
   * B.A.T.M.A.N. 2016.1
