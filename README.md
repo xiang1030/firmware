@@ -3,6 +3,7 @@ https://wiki.freifunk.net/Berlin:Firmware
 
 *[Kathleen Booth](https://en.wikipedia.org/wiki/Kathleen_Booth) was the author of the first assembly language*.
 
+
 The purpose for this release is to have a stable firmware for beginners for the Freifunk mesh in Berlin.
 The firmware is based on vanilla [OpenWrt](https://wiki.openwrt.org/start) "Chaos Calmer" with some modifications (to fix
 broken stuff in OpenWrt itself or for example LuCI) and additional default packages/configuration settings.
