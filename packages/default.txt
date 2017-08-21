@@ -40,3 +40,6 @@ oonf-olsrd2
 # BATMAN
 kmod-batman-adv
 batctl
+
+# VPN
+openvpn-openssl
