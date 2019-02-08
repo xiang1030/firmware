@@ -1,4 +1,4 @@
-Testing...
+Testing... testing again... we need a shared seceret in the configuration
 
 # Freifunk Firmware Berlin "Hedy"
 https://wiki.freifunk.net/Berlin:Firmware
