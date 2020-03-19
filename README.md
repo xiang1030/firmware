@@ -1,3 +1,5 @@
+# This is a test
+
 # Freifunk Berlin Firmware
 https://wiki.freifunk.net/Berlin:Firmware
 
