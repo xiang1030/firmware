@@ -1,14 +1,17 @@
+From 806045e3784c002cc042e1b6b151b6c74feb58af Mon Sep 17 00:00:00 2001
 From: template <nomail@local>
 Date: Fri, 6 Sep 2019 08:29:50 +0000
-Subject: wifi_nolegacy_rates_by_default
+Subject: [PATCH 1/7] wifi_nolegacy_rates_by_default
 
 ---
+ .../htdocs/luci-static/resources/view/network/wireless.js       | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
-
-diff -ur openwrt.orig/feeds/luci/modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js openwrt/feeds/luci/modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js
---- luci/modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js	2019-11-14 01:08:59.557322662 +0100
-+++ luci/modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js	2019-11-14 01:10:22.742834697 +0100
-@@ -769,7 +769,7 @@
+diff --git a/modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js b/modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js
+index ca0cdf6152..acd5ebce52 100644
+--- a/modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js
++++ b/modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js
+@@ -890,7 +890,7 @@ return view.extend({
  					o.wifiNetwork = radioNet;
  
  					o = ss.taboption('advanced', form.Flag, 'legacy_rates', _('Allow legacy 802.11b rates'));
@@ -16,8 +19,7 @@ diff -ur openwrt.orig/feeds/luci/modules/luci-mod-network/htdocs/luci-static/res
 +					o.default = o.disabled;
  
  					o = ss.taboption('advanced', form.Value, 'distance', _('Distance Optimization'), _('Distance to farthest network member in meters.'));
- 					o.datatype = 'range(0,114750)';
+ 					o.datatype = 'or(range(0,114750),"auto")';
 -- 
 2.20.1
-
 
