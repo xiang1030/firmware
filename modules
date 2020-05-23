@@ -3,7 +3,7 @@ OPENWRT_COMMIT=97b522a1f92badddaaed12ede5a3a026e8007c74
 OPENWRT_BRANCH=openwrt-19.07
 
 PACKAGES_PACKAGES_REPO=https://github.com/openwrt/packages.git
-PACKAGES_PACKAGES_COMMIT=a41e068db81d7ecc6d0c0d57f62ddfd49acd68d9
+PACKAGES_PACKAGES_COMMIT=c8d2ed2cbc643a8d15ceac964eb78ba83be6dd2c
 PACKAGES_PACKAGES_BRANCH=openwrt-19.07
 
 PACKAGES_LUCI_REPO=https://github.com/openwrt/luci.git
